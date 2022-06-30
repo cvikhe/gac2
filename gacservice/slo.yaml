@@ -1,0 +1,830 @@
+spec_version: ""
+filter: {}
+comparison:
+  compare_with: single_result
+  include_result_with_score: pass
+  number_of_comparison_results: 1
+  aggregate_function: avg
+objectives:
+- sli: gacrt_SC09_GAC_UI_09_ClickSearch
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC04_GAC_SaveActConst_05_SearchWell
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC05_GAC_SaveActWO_10_ReloadingOfPage
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC05_GAC_SaveActWO_04_SelectAccount
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC05_GAC_SaveActWO_08_SearchC4C
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC07_GAC_SaveActSetWO_01_Launch
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC03_GAC_SaveWell_05_CreateWell
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC06_GAC_SaveActSetCons_02_SignIn
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC07_GAC_SaveActSetWO_07_SearchUnit
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC03_GAC_SaveWell_06_SearchUnit
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC06_GAC_SaveActSetCons_07_ReloadingOfPage
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC09_GAC_UI_01_Launch
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC08_GAC_Filter_02_Signin
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC01_GAC_GroupBy_12_Field
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC09_MK_06_AddRevenue_ClickAdd
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC08_GAC_Filter_01_Launch
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC03_GAC_SaveWell_01_Launch
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC08_GAC_Filter_09_FilterGeoSubGeoCountrySalesAcc
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC05_GAC_SaveActWO_02_SignIn
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC02_GAC_SaveProject_01_Launch
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC02_GAC_SaveProject_06_ReloadingPage
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC07_GAC_SaveActSetWO_03_SearchAccount
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC01_GAC_GroupBy_03_SubGeo_SalesAcc_CorporateAcc_Unit
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC04_GAC_SaveActConst_01_Launch
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC05_GAC_SaveActWO_03_SearchAccount
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC08_GAC_Filter_03_FilterProductLine
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC02_GAC_SaveProject_02_SignIn
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC07_GAC_SaveActSetWO_10_ReloadingOfPage
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC03_GAC_SaveWell_08_SaveActivity
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC08_MK_05_Filter_OneSalesAccount
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC09_MK_03_AddRevenue_LoadMarketShare
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC02_GAC_SaveProject_03_SearchAccount
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC01_GAC_GroupBy_01_Launch
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC08_MK_03_Filter_LoadMarketShare
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC04_GAC_SaveActConst_07_SearchUnit
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC07_GAC_SaveActSetWO_04_SelectAccount
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC05_GAC_SaveActWO_06_SelectWell
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC01_GAC_GroupBy_05_SubGeo_SalesAcc_Project_Unit
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC07_GAC_SaveActSetWO_02_SignIn
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC01_GAC_GroupBy_10_Unit
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC03_GAC_SaveWell_02_SignIn
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC05_GAC_SaveActWO_05_SearchWell
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC09_MK_09_AddRevenue_Clickadd4quarter
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC09_GAC_UI_08_ClickRigCount
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC09_GAC_UI_03_ClickMonthRange
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC09_MK_01_AddRevenue_LaunchURL
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC03_GAC_SaveWell_07_SearchC4C
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC09_MK_07_AddRevenue_AddOneQuarter
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC02_GAC_SaveProject_05_SaveProject
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC08_MK_04_Filter_FilterAllData
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC02_GAC_SaveProject_04_SearchC4C
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC09_MK_05_AddRevenue_SelectCompetitor
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC01_GAC_GroupBy_04_SubGeo_SalesAcc_Basin_Unit
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC01_GAC_GroupBy_08_Country
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC09_GAC_UI_05_NavigatePreviousMonth
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC07_GAC_SaveActSetWO_09_SaveActivitySetWorkover
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC06_GAC_SaveActSetCons_04_SelectAccount
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC08_GAC_Filter_07_FilterGeo
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC01_GAC_GroupBy_06_SubGeo_SalesAcc_Field_Unit
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC07_GAC_SaveActSetWO_08_SearchC4C
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC09_GAC_UI_02_SignIn
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC08_MK_02_Filter_ClickSignOk
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC09_GAC_UI_04_NavigateNextMonth
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC01_GAC_GroupBy_07_SubGeo
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC06_GAC_SaveActSetCons_03_SearchAccount
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC08_GAC_Filter_08_FilterGeoSubGeoCountry
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC04_GAC_SaveActConst_06_SelectWell
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC03_GAC_SaveWell_03_SearchAccount
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC01_GAC_GroupBy_02_SignIn
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC01_GAC_GroupBy_09_SalesAcc
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC08_GAC_Filter_05_FilterIsActivitySet
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC04_GAC_SaveActConst_03_SearchAccount
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC04_GAC_SaveActConst_08_SearchcC4C
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC09_MK_08_AddRevenue_ClickAddSecondQuarter
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC01_GAC_GroupBy_11_Geo
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC09_GAC_UI_07_ShowPL
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC05_GAC_SaveActWO_01_Launch
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC09_GAC_UI_06_DragActivity
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC05_GAC_SaveActWO_07_SearchUnit
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC08_MK_06_Filter_OneCompetitor
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC06_GAC_SaveActSetCons_05_SearchUnit
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC03_GAC_SaveWell_04_SelectAccount
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC06_GAC_SaveActSetCons_01_Launch
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC05_GAC_SaveActWO_09_SaveActivityWorkover
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC04_GAC_SaveActConst_02_SignIn
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC06_GAC_SaveActSetCons_06_SaveActivitySetConstruction
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC09_MK_02_AddRevenue_ClickLogin
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC04_GAC_SaveActConst_04_SelectAccount
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: gacrt_SC08_MK_01_Filter_LaunchURL
+  pass:
+  - criteria:
+    - <1500
+  warning:
+  - criteria:
+    - <5000
+  weight: 1
+  key_sli: false
+- sli: host_cpu
+  pass:
+  - criteria:
+    - <60
+  warning:
+  - criteria:
+    - <85
+  weight: 1
+  key_sli: false
+- sli: host_mem
+  pass:
+  - criteria:
+    - <70
+  warning:
+  - criteria:
+    - <85
+  weight: 1
+  key_sli: false
+total_score:
+  pass: 90%
+  warning: 70%
