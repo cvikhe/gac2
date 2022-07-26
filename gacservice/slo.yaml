@@ -15,7 +15,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC04_GAC_SaveActConst_05_SearchWell
       displayName: ""
       pass:
@@ -25,7 +25,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC05_GAC_SaveActWO_10_ReloadingOfPage
       displayName: ""
       pass:
@@ -35,7 +35,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC05_GAC_SaveActWO_04_SelectAccount
       displayName: ""
       pass:
@@ -45,7 +45,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC05_GAC_SaveActWO_08_SearchC4C
       displayName: ""
       pass:
@@ -55,7 +55,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC07_GAC_SaveActSetWO_01_Launch
       displayName: ""
       pass:
@@ -65,7 +65,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC03_GAC_SaveWell_05_CreateWell
       displayName: ""
       pass:
@@ -75,7 +75,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC06_GAC_SaveActSetCons_02_SignIn
       displayName: ""
       pass:
@@ -85,7 +85,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC03_GAC_SaveWell_06_SearchUnit
       displayName: ""
       pass:
@@ -95,7 +95,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC07_GAC_SaveActSetWO_07_SearchUnit
       displayName: ""
       pass:
@@ -105,7 +105,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC09_GAC_UI_01_Launch
       displayName: ""
       pass:
@@ -115,7 +115,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC06_GAC_SaveActSetCons_07_ReloadingOfPage
       displayName: ""
       pass:
@@ -125,7 +125,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC08_GAC_Filter_02_Signin
       displayName: ""
       pass:
@@ -135,7 +135,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC01_GAC_GroupBy_12_Field
       displayName: ""
       pass:
@@ -145,7 +145,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC03_GAC_SaveWell_01_Launch
       displayName: ""
       pass:
@@ -155,7 +155,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC08_GAC_Filter_01_Launch
       displayName: ""
       pass:
@@ -165,7 +165,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC08_GAC_Filter_09_FilterGeoSubGeoCountrySalesAcc
       displayName: ""
       pass:
@@ -175,7 +175,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC05_GAC_SaveActWO_02_SignIn
       displayName: ""
       pass:
@@ -185,7 +185,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC02_GAC_SaveProject_01_Launch
       displayName: ""
       pass:
@@ -195,7 +195,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC02_GAC_SaveProject_06_ReloadingPage
       displayName: ""
       pass:
@@ -205,7 +205,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC07_GAC_SaveActSetWO_03_SearchAccount
       displayName: ""
       pass:
@@ -215,7 +215,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC08_GAC_Filter_11_FilterGeoSubGeoCountryActTypeIsActSet
       displayName: ""
       pass:
@@ -225,7 +225,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC01_GAC_GroupBy_03_SubGeo_SalesAcc_CorporateAcc_Unit
       displayName: ""
       pass:
@@ -235,7 +235,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC04_GAC_SaveActConst_01_Launch
       displayName: ""
       pass:
@@ -245,7 +245,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC05_GAC_SaveActWO_03_SearchAccount
       displayName: ""
       pass:
@@ -255,7 +255,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC08_GAC_Filter_03_FilterProductLine
       displayName: ""
       pass:
@@ -265,7 +265,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC02_GAC_SaveProject_02_SignIn
       displayName: ""
       pass:
@@ -275,7 +275,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC08_GAC_Filter_13_FilterAllWellParameters
       displayName: ""
       pass:
@@ -285,7 +285,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC03_GAC_SaveWell_08_SaveActivity
       displayName: ""
       pass:
@@ -295,7 +295,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC07_GAC_SaveActSetWO_10_ReloadingOfPage
       displayName: ""
       pass:
@@ -305,7 +305,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC09_MK_03_AddRevenue_LoadMarketShare
       displayName: ""
       pass:
@@ -315,7 +315,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC02_GAC_SaveProject_03_SearchAccount
       displayName: ""
       pass:
@@ -325,7 +325,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC01_GAC_GroupBy_01_Launch
       displayName: ""
       pass:
@@ -335,7 +335,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC08_MK_03_Filter_LoadMarketShare
       displayName: ""
       pass:
@@ -345,7 +345,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC04_GAC_SaveActConst_07_SearchUnit
       displayName: ""
       pass:
@@ -355,7 +355,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC07_GAC_SaveActSetWO_04_SelectAccount
       displayName: ""
       pass:
@@ -365,7 +365,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC04_GAC_SaveActConst_10_ReloadingofPage
       displayName: ""
       pass:
@@ -375,7 +375,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC05_GAC_SaveActWO_06_SelectWell
       displayName: ""
       pass:
@@ -385,7 +385,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC08_GAC_Filter_10_FilterGeoSubGeoCountrySalesAccCorpAcc
       displayName: ""
       pass:
@@ -395,7 +395,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC07_GAC_SaveActSetWO_02_SignIn
       displayName: ""
       pass:
@@ -405,7 +405,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC01_GAC_GroupBy_05_SubGeo_SalesAcc_Project_Unit
       displayName: ""
       pass:
@@ -415,7 +415,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC01_GAC_GroupBy_10_Unit
       displayName: ""
       pass:
@@ -425,7 +425,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC03_GAC_SaveWell_02_SignIn
       displayName: ""
       pass:
@@ -435,7 +435,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC05_GAC_SaveActWO_05_SearchWell
       displayName: ""
       pass:
@@ -445,7 +445,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC09_GAC_UI_08_ClickRigCount
       displayName: ""
       pass:
@@ -455,7 +455,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC09_GAC_UI_03_ClickMonthRange
       displayName: ""
       pass:
@@ -465,7 +465,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC09_MK_01_AddRevenue_LaunchURL
       displayName: ""
       pass:
@@ -475,7 +475,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC03_GAC_SaveWell_07_SearchC4C
       displayName: ""
       pass:
@@ -485,7 +485,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC02_GAC_SaveProject_05_SaveProject
       displayName: ""
       pass:
@@ -495,7 +495,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC02_GAC_SaveProject_04_SearchC4C
       displayName: ""
       pass:
@@ -505,7 +505,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC01_GAC_GroupBy_04_SubGeo_SalesAcc_Basin_Unit
       displayName: ""
       pass:
@@ -515,7 +515,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC09_GAC_UI_05_NavigatePreviousMonth
       displayName: ""
       pass:
@@ -525,7 +525,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC01_GAC_GroupBy_08_Country
       displayName: ""
       pass:
@@ -535,7 +535,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC07_GAC_SaveActSetWO_09_SaveActivitySetWorkover
       displayName: ""
       pass:
@@ -545,7 +545,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC06_GAC_SaveActSetCons_04_SelectAccount
       displayName: ""
       pass:
@@ -555,7 +555,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC08_GAC_Filter_07_FilterGeo
       displayName: ""
       pass:
@@ -565,7 +565,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC01_GAC_GroupBy_06_SubGeo_SalesAcc_Field_Unit
       displayName: ""
       pass:
@@ -575,7 +575,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC07_GAC_SaveActSetWO_08_SearchC4C
       displayName: ""
       pass:
@@ -585,7 +585,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC09_GAC_UI_02_SignIn
       displayName: ""
       pass:
@@ -595,7 +595,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC08_MK_02_Filter_ClickSignOk
       displayName: ""
       pass:
@@ -605,7 +605,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC09_GAC_UI_04_NavigateNextMonth
       displayName: ""
       pass:
@@ -615,7 +615,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC01_GAC_GroupBy_07_SubGeo
       displayName: ""
       pass:
@@ -625,7 +625,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC06_GAC_SaveActSetCons_03_SearchAccount
       displayName: ""
       pass:
@@ -635,7 +635,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC04_GAC_SaveActConst_06_SelectWell
       displayName: ""
       pass:
@@ -645,7 +645,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC08_GAC_Filter_08_FilterGeoSubGeoCountry
       displayName: ""
       pass:
@@ -655,7 +655,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC03_GAC_SaveWell_03_SearchAccount
       displayName: ""
       pass:
@@ -665,7 +665,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC01_GAC_GroupBy_02_SignIn
       displayName: ""
       pass:
@@ -675,7 +675,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC08_GAC_Filter_05_FilterIsActivitySet
       displayName: ""
       pass:
@@ -685,7 +685,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC01_GAC_GroupBy_09_SalesAcc
       displayName: ""
       pass:
@@ -695,7 +695,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC04_GAC_SaveActConst_03_SearchAccount
       displayName: ""
       pass:
@@ -705,7 +705,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC08_GAC_Filter_12_FilterGeoSubGeoCountryActIsActSet
       displayName: ""
       pass:
@@ -715,7 +715,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC04_GAC_SaveActConst_08_SearchcC4C
       displayName: ""
       pass:
@@ -725,7 +725,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC01_GAC_GroupBy_11_Geo
       displayName: ""
       pass:
@@ -735,7 +735,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC09_GAC_UI_07_ShowPL
       displayName: ""
       pass:
@@ -745,7 +745,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC05_GAC_SaveActWO_01_Launch
       displayName: ""
       pass:
@@ -755,7 +755,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC05_GAC_SaveActWO_07_SearchUnit
       displayName: ""
       pass:
@@ -765,7 +765,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC09_GAC_UI_06_DragActivity
       displayName: ""
       pass:
@@ -775,7 +775,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC06_GAC_SaveActSetCons_05_SearchUnit
       displayName: ""
       pass:
@@ -785,7 +785,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC03_GAC_SaveWell_04_SelectAccount
       displayName: ""
       pass:
@@ -795,7 +795,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC06_GAC_SaveActSetCons_01_Launch
       displayName: ""
       pass:
@@ -805,7 +805,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC05_GAC_SaveActWO_09_SaveActivityWorkover
       displayName: ""
       pass:
@@ -815,7 +815,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC04_GAC_SaveActConst_02_SignIn
       displayName: ""
       pass:
@@ -825,7 +825,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC06_GAC_SaveActSetCons_06_SaveActivitySetConstruction
       displayName: ""
       pass:
@@ -835,7 +835,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC09_MK_02_AddRevenue_ClickLogin
       displayName: ""
       pass:
@@ -845,7 +845,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC04_GAC_SaveActConst_09_SaveActivityConstruction
       displayName: ""
       pass:
@@ -855,7 +855,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC04_GAC_SaveActConst_04_SelectAccount
       displayName: ""
       pass:
@@ -865,7 +865,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: gacrt_SC08_MK_01_Filter_LaunchURL
       displayName: ""
       pass:
@@ -875,7 +875,7 @@ objectives:
         - criteria:
             - <5000
       weight: 1
-      key_sli: false
+      key_sli: true
     - sli: host_cpu
       displayName: ""
       pass:
