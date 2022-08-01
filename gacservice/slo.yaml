@@ -895,7 +895,7 @@ objectives:
         - criteria:
             - <70
       weight: 3
-      key_sli: false
+      key_sli: true
 total_score:
     pass: 90%
     warning: 70%
