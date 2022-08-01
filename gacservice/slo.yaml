@@ -893,7 +893,7 @@ objectives:
             - <50
       warning:
         - criteria:
-            - <80
+            - <70
       weight: 3
       key_sli: false
 total_score:
