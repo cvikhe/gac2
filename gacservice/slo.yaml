@@ -890,10 +890,10 @@ objectives:
       displayName: ""
       pass:
         - criteria:
-            - <70
+            - <50
       warning:
         - criteria:
-            - <85
+            - <80
       weight: 3
       key_sli: false
 total_score:
